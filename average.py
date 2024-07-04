@@ -1,4 +1,4 @@
-print ("Please enter 5 numbers.")
+print ("Please enter five numbers.")
 number1=float(input())
 number2=float(input())
 number3=float(input())
