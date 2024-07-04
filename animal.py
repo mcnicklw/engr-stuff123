@@ -1,6 +1,8 @@
-# Author: Wyatt McNickle
-# GitHub username: mcnicklw
-# Date: 6/26/2024
-# Description: Asks the user for their favorite animal then prints out that that is their favorite animal
-fave_animal = input("Please enter your favorite animal:")
-print("Your favorite animal is the " + fave_animal + ".")
+print ("Please enter 5 numbers.")
+number1=int(input())
+number2=int(input())
+number3=int(input())
+number4=int(input())
+number5=int(input())
+print ("the average of those numbers is:")
+print ((number1+number2+number3+number4+number5)/5)
