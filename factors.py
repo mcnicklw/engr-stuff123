@@ -1,5 +1,5 @@
-intboi = int(input("Please enter a positive integer: "))
-print ("The factors of",intboi,"are:")
-if intboi = 0:
-    print("The factors of ",intboi,"are:",0)
-    elif intboi == 1:
+inty = int(input("Please enter a positive integer: "))
+print ("The factors of",inty,"are:")
+for int in range(1,inty+1):
+    if inty % int == 0:
+        print(int)
