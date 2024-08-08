@@ -1,0 +1,7 @@
+words_in_one = input(str()).lower()
+words_in_two = input(str()).lower()
+words_in_one = words_in_one.split()
+words_in_two = words_in_two.split()
+words_in_one = set(words_in_one)
+words_in_two = set(words_in_two)
+print(set(words_in_one) & set(words_in_two))
